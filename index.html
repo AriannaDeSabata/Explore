@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore360</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="d-flex contInfoLogo">
+                <div class="imgLogo">
+                    <img src="assets/image/logo.png"alt="">
+                </div>
+                <a class="navbar-brand" href="#">Explore360</a>
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end "  id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contatti</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Offerte
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#week">Settimanali</a></li>
+                      <li><a class="dropdown-item" href="#summer">Estive</a></li>
+                      <li><a class="dropdown-item" href="#lastMinute">Last Minute</a></li>
+                      <li><a class="dropdown-item d-none d-md-flex" href="#day">Giornaliere</a></li>
+                    </ul>
+                  </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-danger" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron container-fluid d-flex p-5 text-center">
+        <h1>Explore360</h1>
+        <p>Un mondo da scoprire, un viaggio da vivere.</p>
+      </div>
+
+
+      <main class="container-md">
+        <hr>
+        <section class="row offers" id="week">
+          <h3>Offerte della Settimana</h3>
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="card">
+                    <img src="assets/image/tenerife.avif" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                        <h5>Tenerife - Canarie</h5>
+                        <p>10 Notti </p>                    
+                        <p class="price"><span>1050€ </span><br>a persona</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="card">
+                    <img src="assets/image/Norvegia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                        <h5>Norvegia -Skjeggedal</h5>
+                        <p>15 Notti - 3 itinerari </p>                    
+                        <p class="price"><span>1500€ </span><br>a persona</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="card">
+                    <img src="assets/image/thailandia.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                        <h5>Thailandia</h5>
+                        <p>20 Notti - 7 itinerari </p>                    
+                        <p class="price"><span>1800€ </span><br>a persona</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-5 col-md-4 col-lg-3">
+            <div class="card ">
+                    <img src="assets/image/egitto.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                        <h5>Egitto</h5>
+                        <p>15 Notti - 4 itinerari</p>                    
+                        <p class="price"><span>950€ </span><br>a persona</p>
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <hr>
+
+        <section class="row offers " id="summer">
+            <h3>Offerte per l'Estate</h3>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+              <div class="card">
+                      <img src="assets/image/Isole-Galápagos.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                          <h5>Isole Galápagos - Ecuador</h5>
+                          <p>10 Notti </p>                    
+                          <p class="price"><span>1150€ </span><br>a persona</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+              <div class="card">
+                      <img src="assets/image/gran-canyon.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                          <h5>Arizona</h5>
+                          <p>15 Notti</p>                    
+                          <p class="price"><span>1700€ </span><br>a persona</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+              <div class="card">
+                      <img src="assets/image/petra.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                          <h5>Giordania</h5>
+                          <p>10 Notti - 7 itinerari </p>                    
+                          <p class="price"><span>1500€ </span><br>a persona</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+              <div class="card ">
+                      <img src="assets/image/creta.jpg" class="card-img" alt="...">
+                  <div class="card-img-overlay">
+                          <h5>Isola di Creta</h5>
+                          <p>8 Notti - 4 itinerari</p>                    
+                          <p class="price"><span>850€ </span><br>a persona</p>
+                  </div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+                <div class="card ">
+                        <img src="assets/image/berlino.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                            <h5>Berlino</h5>
+                            <p>16 Notti - 4 itinerari</p>                    
+                            <p class="price"><span>1070€ </span><br>a persona</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-5 col-md-4 col-lg-2 p-lg-1">
+                <div class="card ">
+                        <img src="assets/image/Machu Picchu.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                            <h5>Machu Picchu- Perù</h5>
+                            <p>15 Notti - 4 itinerari</p>                    
+                            <p class="price"><span>1650€ </span><br>a persona</p>
+                    </div>
+                </div>
+              </div>
+  
+        </section>
+        <hr>
+
+        <section class="row d-none d-md-flex " id="day" >
+            <h3>Offerta del Giorno</h3>
+              <div class="col-8 ">
+                      <img src="assets/image/Londra.jpeg" class="card-img londra" alt="...">
+              </div>
+              <div class="col-4  infoDay">
+                <h3>Londra</h3>
+                <p class="m-0">15 Notti </p>                    
+                <p class="price"><span>1200€ </span> a persona</p>
+                <p class="description">
+                  Londra, la capitale del Regno Unito, è una città vibrante e cosmopolita, famosa per la sua storia, la cultura e le attrazioni iconiche. Dai monumenti storici come il Big Ben e la Torre di Londra, ai musei di fama mondiale come il British Museum e la National Gallery, offre un'incredibile varietà di esperienze. La città è anche un centro globale per la moda, la gastronomia e lo shopping, con quartieri unici come Covent Garden, Soho e Notting Hill..</p>
+                  <p class="description">colazione e pranzo inclusi nel prezzo</p>
+              </div>
+  
+          </section>
+          <hr>
+
+          <section class="row offers lastMin" id="lastMinute">
+            <h3>Offerte Last Minute</h3>
+            <div class="col-6 col-md-3 ">
+                <div class="card ">
+                    <img src="assets/image/cina.jpg" class="card-img " alt="...">
+                    <div class="card-img-overlay">
+                      <h5>Cina</h5>
+                      <p><small>15 notti</small></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-md-3 ">
+                <div class="card ">
+                    <img src="assets/image/roma.jpg" class="card-img " alt="...">
+                    <div class="card-img-overlay">
+                      <h5>Roma</h5>
+                      <p><small>7 notti</small></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-md-3 ">
+                <div class="card ">
+                    <img src="assets/image/Taj Mahal.jpg" class="card-img " alt="...">
+                    <div class="card-img-overlay">
+                      <h5>Taj Mahal</h5>
+                      <p><small>15 notti</small></p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 col-md-3 ">
+                <div class="card ">
+                    <img src="assets/image/Sydney.jpg" class="card-img " alt="...">
+                    <div class="card-img-overlay">
+                      <h5>Sydney </h5>
+                      <p><small>20 notti</small></p>
+                    </div>
+                  </div>
+            </div>
+
+  
+
+  
+  
+          </section>
+          <hr>
+          
+          <section class="row offers testimonial" id="testimonial">
+            <h5>Recensioni</h5>
+            <ul class="col row list-group list-group-horizontal-md ">
+                <li class="list-group-item col col-md-6">
+                    <div class="d-flex">
+                        <img src="assets/image/logo.png" alt="" class="imgUser">
+                        <h6>Luigi</h6>
+                    </div>
+                    <hr>
+                    <p>questa è una recenzione</p>
+                </li>
+                <li class="list-group-item col col-md-6">
+                    <div class="d-flex">
+                        <img src="assets/image/logo.png" alt="" class="imgUser">
+                        <h6>Giulia</h6>
+                    </div>
+                    <hr>
+                    <p>questa è una recenzione</p>
+                </li>
+                <li class="list-group-item col col-md-6">
+                    <div class="d-flex">
+                        <img src="assets/image/logo.png" alt="" class="imgUser">
+                        <h6>Giorgio</h6>
+                    </div>
+                    <hr>
+                    <p>questa è una recenzione</p>
+                </li>
+                <li class="list-group-item col col-md-6">
+                    <div class="d-flex">
+                        <img src="assets/image/logo.png" alt="" class="imgUser">
+                        <h6>Sara</h6>
+                    </div>
+                    <hr>
+                    <p>questa è una recenzione</p>
+                </li>
+              </ul>
+          </section>
+          <hr>
+      </main>
+
+
+
+
+
+      <footer>
+        <h5>Explore360</h5>
+        <p><small>Agenzia Italiana (FI)</small> </p>
+        <a href="#">Contattaci</a>
+      </footer>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

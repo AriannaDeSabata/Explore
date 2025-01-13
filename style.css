@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin-top: 0;
+    font-family: "Poppins", serif;
+
+}
+
+.offcanvas-body{
+    align-items: center;
+
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding-left: 10px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+input.form-control{
+    width: 150px;
+}
+
+.btn, input.form-control{
+   border-radius: 20px;
+}
+
+.imgLogo{
+    height: 50px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.imgLogo img{
+    width: 100%;
+    height: 100%;
+}
+.contInfoLogo{
+    align-items: center;
+}
+
+
+.offcanvas{
+    height: 500px;
+}
+
+.jumbotron{
+    flex-direction: column;
+    align-items: center;
+    background-color: #b3b3b32a;
+}
+.jumbotron p{
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 0em;
+
+}
+
+.offers, footer{
+    display: flex;
+}
+
+.offers{
+
+    justify-content: space-evenly;
+}
+
+.card, .card img, .card-img-overlay{
+    border-radius: 30px;
+    border: none;
+}
+.card{
+    margin-bottom: 20px;
+    padding: 0;
+    height: 250px;
+    color: #ffff;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-img-overlay{
+    background-color: rgba(58, 58, 58, 0.377);
+}
+.card p{
+    font-size: 0.8em;
+}
+.price{
+    line-height: 1em;
+    margin: 0;
+    bottom: 5px;
+    font-size: 0.7em;
+}
+p.price span{
+    font-size: 2em;
+}
+
+h3{
+    margin-bottom: 15px;
+    background-color: #b3b3b32a;
+    border-radius: 20px;
+}
+.infoDay p.price{
+    margin-bottom: 10px;
+    color: rgb(0, 45, 128);
+}
+.infoDay h3 {
+    background-color: #ffff;
+}
+.description{
+    font-size: 0.7em;
+}
+.londra{
+    max-height: 350px;
+    border-radius: 0;
+}
+
+.lastMin .card{
+    max-height: 150px;
+}
+.lastMin > *.card, .lastMin img, .lastMin .card-img-overlay{
+    border-radius: 0;
+
+}
+.lastMin h5{
+    margin: 0;
+}
+
+.testimonial hr{
+    margin: 2px 0;
+}
+.testimonial div{
+    align-items: center;
+    background-color: #b3b3b32a;
+    border-radius: 20px;
+}
+
+h6{
+    margin: 0 5px;
+}
+.testimonial p{
+    margin-left: 30px;
+}
+.imgUser{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: #b3b3b32a;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/image/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+footer > * { 
+    margin: 2px;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: black;
+}
