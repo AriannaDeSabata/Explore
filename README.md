@@ -1,4 +1,5 @@
 ##Explore360 
+
 è un progetto di interfaccia utente. Consiste in una pagina web statica costruita con HTML e CSS, 
 che mostra una struttura chiara e moderna.
 
